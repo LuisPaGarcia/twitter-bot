@@ -1,0 +1,32 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "Example, how to create a twitter bot",
+  "main": "bot.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "ffmpeg": "0.0.4",
+    "gifify": "^2.4.0",
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.29",
+    "rmdir": "^1.2.0",
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node bot.js",
+    "delete": "node delete.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisPaGarcia/twitter-bot.git"
+  },
+  "author": "@diganluispa <luispa@geekdeguatemala.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisPaGarcia/twitter-bot/issues"
+  },
+  "homepage": "https://github.com/LuisPaGarcia/twitter-bot#readme"
+}
